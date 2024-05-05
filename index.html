@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!-- this will be just one file -->
+<!-- plain html and css (no js) -->
+<!-- not even going to use flexbox or grid -->
+<!-- ai will do almost all the work 😉 -->
+<head>
+  <title>silly internet tricks</title>
+</head>
+
+<body>
+  <header>
+    <h1>
+      SILLY INTERNET TRICKS
+    </h1>
+    <hr>
+  </header>
+  <main>
+
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        I do silly tricks on the web. The sillier the better!
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Find me online</h2>
+      <p>
+        I stream live-coding on Twitch! Find me at <a href="https://www.twitch.tv/sillyinternettricks">sillyinternettricks</a>!
+      </p>
+    </section>
+    <section id="examples">
+      <h2>Examples</h2>
+      <p>
+        Find my examples in my current userscript repository at <a href="https://github.com/silly-internet-tricks/silly-internet-repo">silly-internet-repo</a>
+      </p>
+      <p>
+        The userscripts are all published in my gists: <a href="https://gist.github.com/silly-internet-tricks">silly-internet-tricks</a>
+      </p>
+      <p>
+        My older userscript repository is at <a href="https://github.com/joshparkerj/silly-internet-tricks">silly-internet-tricks</a>
+      </p>
+      <p>
+        The gists there also contain userscripts among other things: <a href="https://gist.github.com/joshparkerj">joshparkerj</a>
+      </p>
+    </section>
+    <section id="tips">
+      <h2>Tips and Tricks</h2>
+      <p>
+        <ol>
+          <li>Use MutationObserver to keep pages from removing your elements.</li>
+          <li>Use GM.xmlhttpRequest to get around Content Security Policies.</li>
+          <li>Insert custom style elements at the end of the body.</li>
+          <li>Use DOMParser when fetching HTML; that way you can get the desired elements using querySelector.</li>
+          <li>You can bundle dependencies into your userscripts using webpack.</li>
+          <li>The extension devtools are found in chrome by going to extensions > manage extensions then finding tampermonkey, clicking the details button, and finding background.html under inspect views</li>
+        </ol>
+      </p>
+    </section>
+  </main>
+  <footer>
+
+  </footer>
+  <style>
+    body {
+      background-color: rgb(255,0,127);
+    }
+
+    h1 {
+      font-family: Ubuntu, Helvetica, sans-serif;
+    }
+
+    p {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    section {
+      float: left;
+      max-width: 400px;
+      border: solid black 1px;
+      border-radius: 2px;
+      margin: 1em;
+      padding: 1em;
+      box-shadow: 1px 2px 6px rgb(0, 255, 127);
+    }
+
+    header {
+      color: rgb(63,63,63)
+    }
+  </style>
+</body>
+
+</html>
